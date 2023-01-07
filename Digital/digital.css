@@ -1,0 +1,28 @@
+@font-face {
+    font-family: digital;
+    src: url(digital-7.ttf);
+}
+
+.container {
+    width: 40vw;
+    height: 40vw;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hours, #minutes, #seconds {
+    width: 40vw;
+    height: 10vw;
+    background-color: dimgray;
+    /* margin: 4px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: digital;
+    font-size: 7vw;
+    border-radius: 20px;
+}
+

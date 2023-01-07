@@ -1,0 +1,38 @@
+#clock {
+    position: relative;
+    background: url('/clock.webp') no-repeat;
+    background-size: 100%;
+    width: 40vw;
+    height: 40vw;
+    margin: auto;
+}
+
+#hours, #minutes, #seconds {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hours {
+    width: 2%;
+    height: 20%;
+    top: 30%;
+    left: 48.92%;
+    background: red;
+}
+
+#minutes {
+    width: 1.5%;
+    height: 24%;
+    top: 25.8%;
+    left: 49.1%;
+    background-color: slategray;
+}
+
+#seconds {
+    width: 1%;
+    height: 32.5%;
+    top: 17.6%;
+    left: 49.4%;
+}
